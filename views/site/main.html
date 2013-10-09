@@ -1,0 +1,19 @@
+
+<div id="quiz" class="col-lg-offset-1" ng-controller="QuizCtrl" >
+   
+ 
+   <div id="pre">
+		<h2>Welcome,</h2><h3>{{candidateDetaile.first_name + ' ' + candidateDetaile.last_name}} </h3>
+		<h4>{{quiz.subject}}</h4>
+		<div id="desc" >{{quiz.desc}}</div>
+		<div id="instruction">{{quiz.instruction}}</div>
+	</div>
+	  <div class="form-group">
+	    <div  ng-hide="quizStarted" >
+	      <button id="btnStart" class="btn btn-primary"  ng-click="start()">Start Quiz</button>
+	    </div>
+     
+	    <div ng-include="pathToQuestionTemplate" ></div>
+	    <div ng-include="pathToQuestionPagerTemplate" ></div>
+	</div>
+</div>

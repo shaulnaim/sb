@@ -1,0 +1,7 @@
+<div id="questionPager" ng-controller="QuestionPagerCtrl">
+    <ul class="pager" >
+  		<li ng-show="questionIndex" ng-click="prevQuestion()"><button class="btn btn-default" type="button" >Prev</button></li>
+  		<li ng-click="nextQuestion()" ng-hide="isLastQuestion()" ><button class="btn btn-primary" type="button" >Next</button></li>
+  		<li ng-click="endQuiz()" ng-show="isLastQuestion()" ><button class="btn btn-primary" type="button" >Finish</button></li>
+    </ul>
+</div>

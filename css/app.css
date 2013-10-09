@@ -1,0 +1,44 @@
+body{
+	background: #fff;
+}
+#login {
+	margin: auto;
+	margin-top: 60px;
+	border: 1px solid black;
+	padding: 30px;
+	border-radius: 5px;
+	background-color: #d3d3d3;
+}
+#login h2 {
+	margin-top: 5px;
+    margin-bottom: 30px;
+ }
+.list-style-none{
+	list-style: none;
+}
+
+.main-header {
+	margin-top: 10px;
+	/*margin-left: 10%;*/
+ 	text-align: center;
+}
+h3{
+	margin: auto;
+	text-align: center;
+	
+}
+#btnStart{
+	margin-top:10px;
+}
+.pager{
+	display:inline;
+	list-style-type: none;
+    padding-right: 20px;
+}
+#quiz h3,#quiz h2{
+	display:inline;
+}
+#quiz h4{
+	color:#d3d3d3;
+	font-weight: bolder;
+}
